@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-place',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlaceComponent implements OnInit {
 
-  constructor() { }
+  imgURl: string;
+  constructor() {
+    this.imgURl= environment.imgUrl;
+   }
 
   ngOnInit(): void {
   }

@@ -7,9 +7,9 @@
   -o-background-size: cover;
   background-size: cover;
 }
-.scroller {
+/* .scroller {
   position: relative;
-  cursor: pointer;
+   cursor: pointer; 
   
   overflow: hidden;
   -webkit-user-select: none;
@@ -22,4 +22,4 @@
   will-change: opacity, transform;
   transition: .3s ease-out;
   color: #fff;  
-}
+} */

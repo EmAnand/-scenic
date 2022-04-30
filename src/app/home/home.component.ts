@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +8,13 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  
 id:any;
 desc:any;
 tname:any
+  imgURL: string | null ;
   constructor(private activeRouter:ActivatedRoute, private router:Router) { 
-    
+    this.imgURL = environment.imgUrl;
   }
 
   ngOnInit(): void {

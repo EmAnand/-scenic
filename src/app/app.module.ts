@@ -16,6 +16,7 @@ import { DomesticDetailsComponent } from './domestic-details/domestic-details.co
 import { InternationalDetailsComponent } from './international-details/international-details.component';
 import { FormsModule } from '@angular/forms';
 import { PlaceComponent } from './place/place.component';
+import { SharedModuleModule } from './shared-module/shared-module.module';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PlaceComponent } from './place/place.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    SharedModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-header',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  imgURl: string;
 
-  constructor() { }
+  constructor() {
+    this.imgURl= environment.imgUrl;
+   }
 
   ngOnInit(): void {
   }

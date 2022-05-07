@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
+import { Data } from '../shared-module/dimensionData';
 
 @Component({
   selector: 'app-home',
@@ -8,13 +9,14 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  
+  dont:any |null =Data.DimensionData.Country.Dont
 id:any;
 desc:any;
 tname:any
   imgURL: string | null ;
   constructor(private activeRouter:ActivatedRoute, private router:Router) { 
     this.imgURL = environment.imgUrl;
+    
   }
 
   ngOnInit(): void {

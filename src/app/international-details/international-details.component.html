@@ -1,8 +1,156 @@
 <!-- <p>international-details works!</p> -->
 <div class="container">
-    {{Usa}}
-</div>
-<br>
-<div class="container">
-    {{thailand}}
+ <p><strong><u>{{name}} :-</u></strong></p>
+ <h4>Do:-</h4>
+ <ul *ngFor="let item of do">
+     
+    <li >{{item}}</li>
+</ul>
+<h4>Don't:-</h4> 
+ <ul *ngFor="let item of dont">
+        
+     <li> {{item}}</li>
+     <!-- <li> {{id}}</li> -->
+     
+</ul>
+
+<section class="text-center container">
+    <h4 class="mb-5" style="color:#084D8E; position: relative; top: 20px;"><strong> <span style="color: #FF6C26;">Visit To Places </span></strong></h4>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple"  data-mdb-ripple-color="light">
+<img src="{{imgURl}}/{{19}}.jpg"/>
+          <span style="color: whitesmoke; position: relative; top: 50px; text-align: center; font-size: 30px;"></span>
+            
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="color:#084D8E;">San Francisco</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <a  class="btn btn-primary" routerLink="/San Francisco">Details</a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple"  data-mdb-ripple-color="light">
+<img src="{{imgURl}}/{{20}}.jpg"/>
+          <span style="color: whitesmoke; position: relative; top: 50px; text-align: center; font-size: 30px;"></span>
+            
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="color:#084D8E;">Washington, D.C.</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <a  class="btn btn-primary" routerLink="/San Francisco">Details</a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple"  data-mdb-ripple-color="light">
+<img src="{{imgURl}}/{{21}}.jpg"/>
+          <span style="color: whitesmoke; position: relative; top: 50px; text-align: center; font-size: 30px;"></span>
+            
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="color:#084D8E;">Las Vegas</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <a  class="btn btn-primary" routerLink="/San Francisco">Details</a>
+          </div>
+          
+        </div>
+      </div>
+      </div>
+      </section>
+<!-- Other countires -->
+      <section class="text-center container">
+        <h4 class="mb-5" style="color:#084D8E; position: relative; top: 20px;"><strong> <span style="color: #FF6C26;">Other Countries </span></strong></h4>
+    
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple"  data-mdb-ripple-color="light">
+    <img src="{{imgURl}}/{{22}}.jpg"/>
+              <span style="color: whitesmoke; position: relative; top: 50px; text-align: center; font-size: 30px;"></span>
+                
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="color:#084D8E;">Australia</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a  class="btn btn-primary" routerLink="/San Francisco">Details</a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple"  data-mdb-ripple-color="light">
+    <img src="{{imgURl}}/{{23}}.jpg"/>
+              <span style="color: whitesmoke; position: relative; top: 50px; text-align: center; font-size: 30px;"></span>
+                
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="color:#084D8E;">Indonesia</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a  class="btn btn-primary" routerLink="/San Francisco">Details</a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple"  data-mdb-ripple-color="light">
+    <img src="{{imgURl}}/{{24}}.jpg"/>
+              <span style="color: whitesmoke; position: relative; top: 50px; text-align: center; font-size: 30px;"></span>
+                
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="color:#084D8E;"> South Africa</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a  class="btn btn-primary" routerLink="/San Francisco">Details</a>
+              </div>
+              
+            </div>
+          </div>
+          </div>
+          </section>
 </div>

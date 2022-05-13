@@ -7,7 +7,8 @@ export const environment = {
   production: false,
   // baseUrl : "http://localhost:61867/api/values/",
   // websiteURL: "http://localhost:4200/project/",
-  imgUrl : "../../assets/Cloud/"
+  imgUrl : "../../assets/Cloud/",
+  videoUrl: "https://www.youtube.com/watch?v=frWJIoilV6o"
 };
 /*
  * For easier debugging in development mode, you can import the following file

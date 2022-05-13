@@ -2,7 +2,18 @@
 <div class="container">
     <a class="btn btn-primary" routerLink="/Places/city"> Must Visit</a>
 </div>
+<br>
 
 <div class="container">
-    {{dos}}
+    <!-- {{dos}} -->
+    <h2 style="color: #1E57A8;">Inida Do's <span style="color: #FF6C26;">&</span> Don'ts </h2>   <br>
+     
+    <h3>Do's</h3>
+    <ul *ngFor="let item of do">
+        <li>{{item}}</li>
+    </ul>
+    <h3>Don'ts</h3>
+    <ul *ngFor="let item of donts">
+        <li>{{item}}</li>
+    </ul>
 </div>

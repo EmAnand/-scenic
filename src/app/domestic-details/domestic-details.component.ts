@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
+import { Data } from '../shared-module/dimensionData';
 
 
 @Component({
@@ -8,7 +9,8 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
   styleUrls: ['./domestic-details.component.css']
 })
 export class DomesticDetailsComponent implements OnInit {
-dos:string= "this is dos";
+do : any =Data.DimensionData.Country.Indiado
+donts: any = Data.DimensionData.Country.Indiadonts
   desc: any;
   id: any;
 tname: any;

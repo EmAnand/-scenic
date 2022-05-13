@@ -17,6 +17,7 @@ import { InternationalDetailsComponent } from './international-details/internati
 import { FormsModule } from '@angular/forms';
 import { PlaceComponent } from './place/place.component';
 import { SharedModuleModule } from './shared-module/shared-module.module';
+import { checkEmailValidator } from './shared-module/Validators/checkEmailValidators.Diractive';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SharedModuleModule } from './shared-module/shared-module.module';
     DetailsParisComponent,
     DomesticDetailsComponent,
     InternationalDetailsComponent,
-    PlaceComponent
+    PlaceComponent,
+    checkEmailValidator
   ],
   imports: [
     BrowserModule,

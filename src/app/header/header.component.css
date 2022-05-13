@@ -190,3 +190,15 @@ li {
   background: -webkit-linear-gradient(left, #1E57A8 48%, #1b1e21 48%);
   background: linear-gradient(45deg, white 48%, white 48%);
 }
+
+/* dorpdown test */
+
+ul li a:hover{
+  text-decoration:underline;
+  text-decoration-color: #1bbde8;
+
+}
+a{
+  text-decoration: none;
+  color: gray;
+}

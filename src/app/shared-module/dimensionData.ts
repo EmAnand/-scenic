@@ -33,42 +33,32 @@ export const Data = {
                 
 
               ],
-              "Thailant": [
-                "Thailand", 
-              ],
-            "Dos": [
-              "1. Take your shoes off", 
-              "Like in other Asian countries, people in Thailand believe that the feet are unholy and unclean. This is why they take their shoes off before entering a house, temple, and even some restaurants, shops and offices. A pile of shoes and slippers outside one of these establishments is a good indicator that footwear is forbidden inside.",
-              "2. Dress properly",
-              "Thais dress modestly, and showing too much skin is considered disrespectful. This is especially true when visiting temples. Rules in Thailand state that before entering a temple, you should wear clothes that fully cover your shoulders and knees. The more formal the attire, the better. If you think the weather in Thailand is too hot to be covered up, you can find markets selling loose and light clothing items that are culturally appropriate.",
-              "3. Return a wai greeting",
-              "Bowing in Thailand is called the wai (pronounced as ‘why’). It’s the traditional way Thais greet one another and say hello. When one is directed at you, you should always return it. Thais consider it disrespectful if a wai is not returned. The proper way to wai is to bring your hands together in front of your chest — make sure your hands are pointing upwards. Then bow your head until your nose touches your index fingers. The wai is not only used to greet people; it is also used to apologise, thank someone or say goodbye.",
-              "4. Respect the monks",
-              "You’ll encounter monks all over Thailand, and you should always treat them with utmost respect. Always bow when you meet one and never ask them overly personal questions. If you want to give them something, place the item in front of them instead of handing it directly. Women should be extra careful around monks because it’s strictly forbidden for women to touch monks or even to brush against their robes.",
-              "5. Use a spoon",
-              "The proper way to eat in Thailand is with a spoon and fork. The spoon should be in the right hand and the fork in the left. The fork is only used to scoop the food onto the spoon; it should never enter your mouth.",
-              "6. Smile", 
-              "Smiling is deeply rooted in Thai culture, which is why Thailand is called the Land of Smiles. It is an important part of Thai etiquette and can mean many things, including expressing various emotions such as embarrassment or frustration. Thais also smile to avoid confrontations. But that does not mean the Thai smile is fake. Thais are friendly people and their smile is a way of showing respect, so if you’re the recipient of a smile, make sure you smile in return.",
-              
-          ],
-          "Donts" :[
-              "•	1. Don't disrespect the Thai royal family",
-              "The Thai people have a deep reverence for their king and the royal family. Insulting, disrespecting or talking ill of the king or images of the king can land you a one-way ticket to prison.",
-              "•	2. Don't touch people's heads",
-              "In Thailand, the head is revered as the highest and most sacred part of the body, therefore, you should never touch a person’s head or hair — this includes ruffling children’s hair. Don’t raise your feet over someone’s head and don’t step over someone who is sleeping or sitting on the ground.",
-              "•	3. Don't point",
-              "Pointing at someone in Thailand is inappropriate and rude as it is in many other countries too. Instead, lift your chin in the direction of the person you’re indicating. If you’re asking someone to come closer, raise your arm horizontally and wave your hand up and down. Pointing at animals and inanimate objects is generally tolerated, although it’s better to use your entire hand to gesture instead of the index finger.",
-              "•	4. Don't point with your feet",
-              "Pointing with your feet is just as rude as pointing with your fingers, especially when you’re pointing at Buddha statues in and outside of temples. You should also avoid showing the bottom of your feet because they’re considered to be extremely dirty, so don’t put your feet on top of tables and chairs.",
-              "•	5. Don't disrespect Buddhas",
-              "Buddhism is the primary religion in Thailand, therefore you should respect the status and images of the Buddha. Climbing on Buddha statues in temples is highly offensive and is punishable by law. It’s also illegal to take images of the Buddha out of the country without special permission.",
-              "Learning how to be polite in Thailand is easy if you follow these important do’s and don’ts. It will help your family adjust quickly to Thai culture and prevent you from unintentionally offending someone.",
-              
+              "Indiado": [
+                "Good conversation starters include the region your counterpart is from, their profession, the well-being of their family and the meaning of their given name.", 
+                "Treat Indian elders with visible respect. For example, address them first and defer to their opinion. Always sit lower than them, and avoid speaking directly or harshly.",
+                "Be patient when making decisions or negotiating with your Indian counterpart. Indians tend to take their time when deliberating decisions, regardless of the urgency or importance of the decision.",
+                "Try to dress conservatively and speak respectfully out of respect for your Indian counterpart.",
+                "Enjoy a playful and light-hearted sense of humour. Indians tend to enjoy friendly banter and light teasing.",
+                "Over 93% of Indians in Australia are fluent in English, and it is common for them to have an extensive and impressive vocabulary. If you communicate in a way that doesn't acknowledge this, your Indian counterpart will likely interpret this as patronising.",
+                "Try to be conscious of how gender and relationships may impact interactions. For example, some conservative Indians may find it inappropriate to include a married woman in a conversation if her husband is present.",
+           
+            ],
+            "Indiadonts": [
+              "Avoid crude humour or swearing. Indians may take offence to this manner of speech quite easily.",
+              "Do not directly criticise India as a country. This form of criticism from a foreigner is usually unwelcome and may be interpreted as an insult.",
+              "Avoid negative comments or criticisms about a person’s ability, appearance or attributes. Such comments are often taken to heart and will give your Indian counterpart the impression that you are insensitive.",
+              "Do not assume that the work ethic of Indians is more laid-back than that of Australians. On the contrary, many Indians are very hard-working and a significant portion of the country is highly educated.",
+              "Do not directly ask someone what caste they belong to. It is more appropriate to ask about their occupation. For more information, see ‘Social Structure and Stratification’ in Core Concepts.",
+              "Do not criticise or patronise someone for their profession or vocation. Someone’s occupation is usually an important part of one’s personal identity.",
+              "Try not to be intimidated by the process of haggling (persistent bargaining over the cost of something). For many people in India, haggling is part of daily life and often an enjoyable process.",
+              "Avoid making judgements in absolute terms of right or wrong until you have a clear understanding of the circumstance. For many Indians, the context and situation are important in understanding whether something is moral and just.",
+              "Drawing parallels between India and other countries on the Indian subcontinent such as Pakistan or Bangladesh may offend your Indian counterpart.",
+              "Avoiding discussing tensions between Pakistan and India. This is a sensitive or heated topic for some Indians and can evoke a strong emotional response.",
           ],
               "Howtoreach": 
               [
               'Rishikesh can be accessed via air, bus, train and road/ self-drive.',
-              'Air: The nearest airport is located in Dehradun. And is approximately ',
+              'Air: The nearest airport is located in Dehradun. And is approximately 35 km away from Rishikesh. All major domestic carriers have direct flights from Delhi. There is even a flight from Lucknow. Once you exit the airport, you can hire a local taxi or catch a bus to Rishikesh. If you are traveling from overseas and are unable to find a connection then the best way is to catch a cab from New Delhi and head to Rishikesh via road.',
               'Bus: Rishikesh is well-connected via buses from Delhi, Haridwar, and Dehradun. From Delhi, you can get busses either form Kashmiri Gate or ISBT. Buses run at various times throughout the day. You choose between luxurious, deluxe or regular coaches.',
               'Train: The nearest railway station is located in Haridwar and is around 25 km away. Haridwar is connected via train to many locations in India such as Varanasi, Lucknow, Kolkata, Mumbai, Delhi etc. There are many trains such as Shatabdi, Express Trains, AC Special trains, and Mussoorie Express.',
               'Road/Self Drive: Rishikesh is connected to major cities in India via National Highway 58. It takes between 6 and 7 hours to reach Rishikesh from Delhi. There is a short hilly terrain in the middle, but other than that the drive to Rishikesh is smooth and enjoyable.',
@@ -78,7 +68,19 @@ export const Data = {
        "Although Rishikesh enjoys pleasant weather throughout the year, some months are definitely more favorable than the others.",
        "October to February: Rishikesh experiences winters during these months and the average temperature ranges between 19-27 degrees. Despite the chilly weather, many people head to Rishikesh around this time for rafting and camping. January is the coldest month, so make sure you carry appropriate winter wear.", 
       "March to June: March is the best time to head to Rishikesh for rafting and if you plan in advance, you can also attend the International Yoga Festival. Rishikesh experiences summer during these months and June is the hottest month with temperatures peaking up to 25 degrees. Rafting is closed during June, so if you are not a fan of the adventure sport then this is the best time to visit Rishikesh as many hotels offer discounted accommodation.",
-    ],
+        ],
+    "attraction":[
+            "Hadimba Temple",
+            "Solang Valley",
+            "Jogini Waterfalls",
+            "Manu Temple",
+            "The Manali Gompa",
+            "Bhrigu Lake",
+        ],
+        "youtube":[
+          "https://www.youtube.com/watch?v=frWJIoilV6o",
+          
+      ],
         
           },
       //     "How to reach": 

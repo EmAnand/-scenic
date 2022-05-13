@@ -1,16 +1,24 @@
 <div class="container">
   <h3>{{name}}</h3>
 
-  <h3 >How to reach</h3>
+  <h4 >How to reach</h4>
 <ul *ngFor="let item of howtoreach; index as i;">
   <li>{{item}} </li>
 </ul>
 
- <h3>Best Time To Visit</h3>  
+ <h4>Best Time To Visit</h4>  
  <ul *ngFor="let item of besttimetovisit; index as i;">
 <li>{{item}} </li></ul>
-  <h3>Attraction</h3>
-
+  <h4>Attraction</h4>
+  <ul *ngFor="let item of attraction; index as i">
+    <li>{{item}}</li>
+  </ul>
+  <div >
+  <!-- <h3>Youtube</h3> -->
+  <span><img src="{{imgURl}}/{{25}}.jpg" width="180px" height="40px"/></span><br><br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/frWJIoilV6o?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <a href="{{youtube}}">  {{youtube}} </a> -->
+</div>
 </div>
 
 <section class="text-center container">

@@ -11,13 +11,15 @@ import { Data } from '../shared-module/dimensionData';
 export class PlaceComponent implements OnInit {
 howtoreach : any =Data.DimensionData.Country.Howtoreach;
 besttimetovisit: any =Data.DimensionData.Country.BestTimeToVisit;
-
-
+attraction: any = Data.DimensionData.Country.attraction
+youtube :any= Data.DimensionData.Country.youtube
 
   imgURl: string;
   name: any;
+  // videoURl: string;
   constructor( private activeRouter:ActivatedRoute) {
     this.imgURl= environment.imgUrl;
+    //this.videoURl =environment.videoUrl;
    }
 
   ngOnInit(): void {

@@ -66,20 +66,20 @@
       <div class="container">
         <div class="row">
           <!-- social icon-->
-          <div class="col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             
             <a href="#"> <p style="font-size: 16px; position: relative; top: 7px;">
             <i class="fa fa-envelope"></i>
             info@scenic.site </p> </a>
           
           </div>
-          <div class="col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <ul class="social-network">
               <li><a class="waves-effect waves-dark " href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-youtube"></i></a></li>
               <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
-              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <!-- <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li> -->
             </ul>
           </div>
 
@@ -131,35 +131,54 @@
   </nav>
 </div> -->
  <!-- Navigation -->
-
-<nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+ 
+<nav  class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
   <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top "> -->
   <div class="container">
     <a class="navbar-brand" routerLink=""><img src="{{imgURl}}/{{18}}.jpg"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ms-auto">
+    <div class="collapse navbar-collapse" id="navbarResponsive" >
+      <ul class="navbar-nav ms-auto" >
         <li class="nav-item active">
-          <a class="nav-link" style="font-weight: bolder; color: gray;" routerLink="">Home</a>
+          <a class="nav-link" style="font-weight: bolder; color: gray;" routerLink="">
+            <i class="fa fa-home fa-lg" aria-hidden="true"></i>  Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" style="font-weight: bolder; color: gray;" routerLink="">Holiday</a>
         </li>
 
       
+       
+        <li class="dropdown">
+          <a class="btn btn-light dropdown-toggle" style="font-weight: bolder; color: gray;"
+          type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Particular
+        </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+           <li class="dropdown-header">Demostics Places</li>
+            <li><a class="dropdown-item" href="#">Best Place In India</a></li>
+            <li><a class="dropdown-item" href="#">Top Honeymoon Destination <br>In India</a></li>
+            <li><a class="dropdown-item" href="#">Top Beach In India</a></li>
+            <li><a class="dropdown-item" href="#">Hill Station In India</a></li>
+            <li class="dropdown-header">International Places</li>
+            <li><a class="dropdown-item" href="#">Top Honeymoon Destination <br>In World</a></li>
+            <li><a class="dropdown-item" href="#">Hill Station In World</a></li>
+            <li><a class="dropdown-item" href="#">Top Beach In World</a></li>
+
+          </ul>
+        </li>
         <li class="nav-item">
           <a class="nav-link" style="font-weight: bolder; color: gray;" routerLink="/contact">Contact</a>
         </li>
-        
       </ul>
     </div>
   </div>
 </nav>
 
 
-
+</div>
 <!-- Page Content -->
 <!-- <section class="py-5">
   <div class="container">

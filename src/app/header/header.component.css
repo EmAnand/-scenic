@@ -193,12 +193,11 @@ li {
 
 /* dorpdown test */
 
-ul li a:hover{
-  text-decoration:underline;
-  text-decoration-color: #1bbde8;
 
+.nav-link :hover{
+  color: #01BAFD;
+  
 }
-a{
-  text-decoration: none;
-  color: gray;
+.dropdown :hover{
+color: #01BAFD;
 }

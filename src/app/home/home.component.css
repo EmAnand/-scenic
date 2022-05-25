@@ -4,3 +4,154 @@
     width: 400px;
     height: 100px;
 }
+.kab{
+
+
+     color: white;
+     padding-top: 10px;
+
+}
+.enquiry {
+
+    position: fixed;
+    right:-100px;
+    bottom: 130px;
+    width: 185px;
+    height: 40px;
+
+    background-color: #084D8E;
+    box-shadow: 0 0 10px black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.enquiry :hover{
+    position: relative;
+    right:50px;
+
+    width: 185px;
+    height: 50px;
+
+    background-color: #084D8E;
+    /* box-shadow: 0 0 10px black; */
+    /* color: #FF6C26; */
+    /* border: none;
+    outline: none; */
+    cursor: pointer;
+    /* position: relative;
+    right: 30px; */
+}
+
+/* .enquiry :hover {
+
+    position: relative;
+    right:-10px;
+    bottom: 100px;
+    width: 150px;
+    height: 50px;
+
+    background-color: #084D8E;
+    box-shadow: 0 0 10px black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.enquiry :hover{
+    color: #FF6C26;
+    position: absolute;
+    right: 20px;
+    width: 150px;
+    height: 50px;
+
+} */
+a{
+    text-decoration: none;
+}
+#btnscrollToTop{
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF6C26;
+    box-shadow: 0 0 10px black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#btnscrollToTop-1{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FF6C26;
+    box-shadow: 0 0 10px black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* #btnscrollToTop:active{
+    background-color:red;
+} */
+.underline {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+  .underline:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background: #000;
+    height: 4px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .underline:hover:after,
+  .underline:focus:after,
+  .underline:active:after {
+    right: 0;
+  }
+
+  /* Paralla Scrolling */
+  .parallax {
+    /* The image used */
+    background-image: url("../../assets/Cloud/new york.jpg");
+       /* background-image: url("../../assets/Cloud/new york1.jpg"); */
+    /* Set a specific height */
+    min-height: 100px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+    
+  }
+  
+  .parallax-set{
+    height:500px;
+    text-align: center;
+    padding-top: 200px;
+     padding-left: 18px; 
+     padding-right: 12px;
+      background:rgba(22, 22, 21, 0.6); 
+      color:white;
+      
+       font-size:22px;
+  }
+  

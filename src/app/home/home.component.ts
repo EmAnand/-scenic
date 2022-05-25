@@ -20,10 +20,17 @@ tname:any
   }
 
   ngOnInit(): void {
+    
     this.id = this.activeRouter.paramMap.subscribe((Params:Params) =>  this.desc= Params['desc']);
   }
   ToInternationaldetails(id: any,){
     this.router.navigate(['./International-details', id])
 
+  }
+  ScrollToTop(){
+   window.scrollTo(0,0);
+  }
+  ChartBox(){
+    
   }
 }

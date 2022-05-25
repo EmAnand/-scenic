@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
 import { PlaceComponent } from './place/place.component';
 import { SharedModuleModule } from './shared-module/shared-module.module';
 import { checkEmailValidator } from './shared-module/Validators/checkEmailValidators.Diractive';
+import { EnquiryformComponent } from './enquiryform/enquiryform.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { checkEmailValidator } from './shared-module/Validators/checkEmailValida
     DomesticDetailsComponent,
     InternationalDetailsComponent,
     PlaceComponent,
-    checkEmailValidator
+    checkEmailValidator,
+    EnquiryformComponent
   ],
   imports: [
     BrowserModule,

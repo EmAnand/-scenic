@@ -1,0 +1,37 @@
+input.ng-invalid.ng-touched{
+
+    border-left: 4px solid red;
+}
+textarea.ng-invalid.ng-touched{
+    border-left:  4px solid red;
+}
+input.ng-valid.ng-touched{
+
+    border-left: 4px solid green;
+}
+textarea.ng-valid.ng-touched{
+    border-left:  4px solid green;
+}
+/* .abc{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #337AB7;
+    background-color: #337AB7;
+    color: white;
+    padding-left: 10px;
+}
+
+.abcd{
+    border: 1px solid #337AB7;
+} */
+
+.ab{
+    padding-top: 10px;
+  background-color: #1E57A8;
+}
+.abc{
+    color: black;
+}
+label{
+    color: white;
+}

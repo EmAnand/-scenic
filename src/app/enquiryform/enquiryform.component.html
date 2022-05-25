@@ -1,0 +1,82 @@
+
+
+
+<div class="container">
+    <div class="row ">
+        <!-- <div class="col-sm-7 ab" >
+            <h4 style="color: white;"> Travel Enquiry</h4>
+        </div><br>
+        <br> -->
+        <div class="col-sm-7 ab">
+            <div class="col-sm-7 ab" >
+                <h4 style="color: white;"> Travel Enquiry</h4>
+            </div><br>
+            
+            <form (ngSubmit)="formsubmit(f)" #f="ngForm"  >
+                
+                    <div class="col-sm-12 form-group" >
+                        <label>Name:</label>
+                        <input type="text" class="form-control" ngModel name="name" id="name" required >
+                    </div>&nbsp;
+                    <div class="col-sm-12 form-group"> 
+                        <label>Email:</label>
+                            <input type="email" class="form-control" ngModel name="email" id="email" checkEmail required >
+                        
+                    </div>&nbsp;
+                    <div class="col-sm-12 form-group">
+                        <label>Contact No</label>
+                            <input type="number" class="form-control" ngModel name="contactno" id="contactno"  required>
+                        
+                    </div>&nbsp;
+                    <div class="col-sm-12 form-group">
+                        <label>Alternate No</label>
+                            <input type="number" class="form-control" ngModel name="alternateno" id="alternateno"  >
+                        
+                    </div>&nbsp;
+                    <div class="col-sm-12 form-group">
+                        <label>Expacted Travel Date</label>
+                            <input type="date" class="form-control" ngModel name="expactedtravel" id="expactedtravel"  required>
+                        
+                    </div>&nbsp;
+                    <div class="col-sm-12 form-group">
+                        <label>Adult</label>
+                            <input type="number" class="form-control" ngModel name="adult" id="adult"  required>
+                        
+                    </div>&nbsp;
+                    <div class="col-sm-12 form-group">
+                        <label>Child</label>
+                            <input type="number" class="form-control" ngModel name="child" id="child"  >
+                        
+                    </div>&nbsp;
+                    <div class="col-sm-12 form-group" >
+                        <label>Message:</label>
+                            <textarea name="message" class="form-control" ngModel id="message" cols="30" rows="7" required></textarea>
+                        
+                    </div>&nbsp;
+                    <!-- <div class="col-sm-12 form-group" >
+                        <label>Terms&condition:</label>
+                        <input type="checkbox" checked data-toggle="toggle">
+                        
+                    </div>&nbsp; -->
+                    <div class="col-sm-12 form-group" >
+                        
+                            <input type="submit" value="Send Message" class="btn btn-primary" [disabled]="!f.valid" >
+                            <!-- <div class="submitting"></div> -->
+                        
+                    </div>
+                    &nbsp;
+                    &nbsp;
+                
+            </form>
+        </div>
+        <div class="col-sm-5 abc" >
+            <img src="../../assets/Cloud/ship.jpeg" width="98%"/>
+            <div class="col-sm-5" style="padding-left: 20px; color: #337AB7;">
+                For expart advice <br>
+                <i class="fa fa-mobile" aria-hidden="true"></i>                +91 9171 040 329
+                        </div>
+        </div>
+        
+    </div>
+</div>
+<br>

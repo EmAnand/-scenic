@@ -311,31 +311,39 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
   <div class="carousel-inner">
     <div class="carousel-item active">
         <p style="text-align: center;">
-            Hello Vikash
-        </p>
+           
+  <span style="font-size: 20px;">&#x201C;Travel, in the younger sort, is a part of education; in the elder, a part of experience.
+  </span> 
+  
+  <br> Vikash
+</p>
       <!-- <img src="../../assets/carousel/Char-Dham-Banner.jpg" class="d-block w-100" alt="..."> -->
     </div>
     <div class="carousel-item">
         <p style="text-align: center;">
-            Hello Karl
+      <span style="font-size: 20px;">&#x201C;A wise traveler never despises his own country. </span><br>
+           Karl
         </p>
       <!-- <img src="../../assets/carousel/Bike-Trip-Banner.jpg" class="d-block w-100" alt="..."> -->
     </div>
     <div class="carousel-item">
         <p style="text-align: center;">
-            Hello Sir
+         <span style="font-size: 20px;">
+          &#x201C;One’s destination is never a place, but a new way of seeing things.
+         </span> 
+         <br>  Hello Sir
         </p>
       <!-- <img src="../../assets/carousel/Ladakh-Holidays-Banner.jpg" class="d-block w-100" alt="..."> -->
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  </button> -->
+  <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
-  </button>
+  </button> -->
   </div>
 </div>
 </div>
@@ -442,7 +450,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title" style="color:#FF6C26">Family Tour</h5>
+                <h5 class="card-title chang" style="color:#FF6C26">Family Tour</h5>
                 <!-- <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the
                   card's content.
@@ -477,7 +485,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
   <div class="row">
 
     <div class="col-sm-6">
-       <h4 class="text-white" style="padding-top: 40px; padding-left: 70px;">LAST MINUTTE OFFER! HURRY UP</h4> 
+       <h4 class="text-white" style="padding-top: 40px; padding-left: 70px;">LAST MINUTE OFFER! HURRY UP</h4> 
     </div>
     <div class="col-sm-6">
       <h5 class="text-white" style="padding-top: 40px; padding-left: 190px;" routerLink="/contact"><span style="cursor: pointer;"><u>Contact</u></span></h5> 
@@ -499,7 +507,41 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 <button id="btnscrollToTop" (click)="ScrollToTop()">
   <i class="fa fa-angle-up"></i>
 </button>
-
-<button id="btnscrollToTop-1" (click)="ChartBox()">
+<!-- Chat-Box -->
+<!-- <button id="btnscrollToTop-1" (click)="ChartBox()">
   <i class="fa fa-comment fa-lg"></i>
-</button>
+  
+</button> -->
+
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- {{ welcomemsg | uppercase }} -->
+
+<!-- <p>DateTime as Milliseconds : {{todayNumber}} 
+  datepipe:{{todayNumber | date}}</p> -->
+  <!-- <p style="height: 40px; font-size: 22px;"> {{todayDate}} 
+ </p> -->
+  <!-- <p>DateTime as string : {{todayString}} 
+  datepipe:{{todayString | date}}</p>
+  <p>DateTime as iso string : {{todayISOString}} 
+  datepipe:{{todayISOString | date}}</p> -->
+  <!-- <h4>{{dateTime | date }}</h4>
+  <h4>{{ dateTime | date:'shortTime' }} </h4> -->
+  <!-- <h4>{{ dateTime | date: 'd MMMM y'}}</h4> -->
+  <!-- <h4>{{ dateTime| date:'medium' }}</h4> -->
+  <!-- <p (click)="observableTimer()">Start Observable timer</p> {{subscribeTimer}} -->

@@ -208,8 +208,8 @@ color: #01BAFD;
   position: relative;
   display: inline-block;
   width: 90px;
-  margin-top: 8px;
-  font-weight: bold;
+  margin-top: 7px;
+  font-weight: 600;
   color: gray;
 }
 

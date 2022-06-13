@@ -19,6 +19,8 @@ import { PlaceComponent } from './place/place.component';
 import { SharedModuleModule } from './shared-module/shared-module.module';
 import { checkEmailValidator } from './shared-module/Validators/checkEmailValidators.Diractive';
 import { EnquiryformComponent } from './enquiryform/enquiryform.component';
+import { MypipePipe } from './mypipe.pipe';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { EnquiryformComponent } from './enquiryform/enquiryform.component';
     InternationalDetailsComponent,
     PlaceComponent,
     checkEmailValidator,
-    EnquiryformComponent
+    EnquiryformComponent,
+    MypipePipe,
+    TestComponent
   ],
   imports: [
     BrowserModule,

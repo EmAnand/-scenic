@@ -1,15 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  selector: 'app-test',
+  templateUrl: './test.component.html',
+  styleUrls: ['./test.component.css']
 })
-export class FooterComponent implements OnInit {
-  // todayNumber: number = Date.now();
-  // todayDate : Date = new Date();
-  // todayString : string = new Date().toDateString();
-  // todayISOString : string = new Date().toISOString();
+export class TestComponent implements OnInit {
+
   private daysArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   private date = new Date();
 
@@ -21,6 +18,7 @@ public day: string | undefined
   constructor() { }
 
   ngOnInit(): void {
+
     setInterval(() =>{
       const date = new Date();
       this.updateDate(date);
@@ -42,4 +40,3 @@ public day: string | undefined
   }
 
 }
-

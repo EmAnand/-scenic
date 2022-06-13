@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { InternationaPackageComponent } from './internationa-package/internationa-package.component';
 import { InternationalDetailsComponent } from './international-details/international-details.component';
 import { PlaceComponent } from './place/place.component';
+import { TestComponent } from './test/test.component';
 import { ViewPackageComponent } from './view-package/view-package.component';
 
 const routes: Routes = [
@@ -21,6 +22,7 @@ const routes: Routes = [
  {path:'International-details/:id', component:InternationalDetailsComponent},
  {path:'Places/:id', component:PlaceComponent},
  {path:'enquiry', component:EnquiryformComponent},
+ {path:'test', component:TestComponent},
   {path: '', component:HomeComponent}
 ];
 

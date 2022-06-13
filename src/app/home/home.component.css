@@ -85,7 +85,8 @@ a{
     outline: none;
     cursor: pointer;
 }
-#btnscrollToTop-1{
+/* Chat Box */
+/* #btnscrollToTop-1{
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -98,7 +99,7 @@ a{
     border: none;
     outline: none;
     cursor: pointer;
-}
+} */
 /* #btnscrollToTop:active{
     background-color:red;
 } */
@@ -129,7 +130,7 @@ a{
   /* Paralla Scrolling */
   .parallax {
     /* The image used */
-    background-image: url("../../assets/Cloud/new york.jpg");
+    background-image: url("../../assets/Cloud/parallax1.jpg");
        /* background-image: url("../../assets/Cloud/new york1.jpg"); */
     /* Set a specific height */
     min-height: 100px;
@@ -154,4 +155,7 @@ a{
       
        font-size:22px;
   }
-  
+  /* .chang:hover{
+    background-color: #084D8E;
+    height: 30px;
+  } */
